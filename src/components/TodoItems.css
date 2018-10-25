@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.todoItemList {
+  color: purple;
+  padding: 10px;
+  font-size: 16px; 
+  list-style-type: none;
+  text-decoration-line: underline;
+  display: inline-block;
+  width: 700px;
+  line-height: 300%;
+  background: #ccff;
+  border: 2px solid #ccc;
+}
+.todoItemLi {
+  display: block;
+  margin:10px;
+  padding: 10px;
+}
+.toggleButton {
+  color: #fff;
+  background-color: rgba(206, 206, 200, 0);
+  height: 50px;
+  margin : 10px;
+  line-break: auto; 
+  clear: both;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: rgba(206, 206, 200, 0) ;
+}
+.todoItembutton {
+  color: #fff;
+  background-color: red;
+  height: 50px;
+  margin : 10px;
+  float: right;
+  clear: both;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: red ;
+}
